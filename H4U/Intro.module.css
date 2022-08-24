@@ -1,0 +1,75 @@
+
+.intro_container
+{
+    display: flex; 
+    background-color: #0F1145;
+    width: 100%;
+    
+}
+
+.intro_container_leftcard
+{
+    flex:1;
+    padding: 0 200px;
+    padding-right: 40px;
+    
+}
+
+.intro_container_rightcard
+{
+    flex: 1;
+    padding: 100px 200px;
+    padding-left: 20px;
+}
+
+.title
+{
+   
+    font-display: flex;
+    font: monserrat;
+    font-size: 38px;
+    text-align: right;
+    
+}
+.description
+{
+    font-size: 20px;
+    margin-bottom: 38px;
+    color: #FFFFFF;
+}
+
+.h4u
+{
+    color:  #D4FF2A;
+    font-size: 20px;
+    font-weight: bold;
+}
+.input_text
+{
+    display: flex;
+}
+
+.input_gmail
+{
+    color: #FFFFFF;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: #0F1145;
+    width: 80%;
+}
+.input_gmail:focus
+{
+    outline: none;
+}
+
+.contactbutton
+{
+  flex: 1;
+  background-color: #D4FF2A;
+  color: black;
+  font-weight: bold;
+  font-size: 11px;
+  padding:5px ;
+  border-radius: 5px;
+  cursor: pointer;
+}

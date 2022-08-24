@@ -1,0 +1,36 @@
+
+
+.info_container
+{
+    background-color: #0F1145;
+    width: 100%;
+    padding: 80px;
+    color: #FFFFFF;
+}
+
+.info_title
+{
+    color: #FFFFFF;
+    font: bold;
+    
+}
+
+.descript{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left_container{
+    
+    flex: 1;
+    font-size: 23px;
+    padding: 0 20px;
+    padding-right: 25px;
+}
+
+.right_container{
+    flex: 1;
+    padding: 5px 5px;
+    padding-left: 50px;
+}
